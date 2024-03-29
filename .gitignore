@@ -1,0 +1,9 @@
+# Project files #
+#################
+node_modules
+dist
+
+# OS files #
+############
+.DS_Store
+.DS_Store?
