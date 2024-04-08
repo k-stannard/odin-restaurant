@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./fonts/Pacifico.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+
+    font-family: 'Madimi';
+    src: url('./fonts/MadimiOne.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: url('./images/beans.jpg');
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: antiquewhite;
+
+    font-family: 'Madimi';
+}
+
+.subheader {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
