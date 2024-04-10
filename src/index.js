@@ -4,6 +4,7 @@ import './style.css'
 homepage()
 
 const buttons = document.querySelectorAll('button')
+
 buttons.forEach(button => {
     button.addEventListener('click', (event) => {
         let target = event.target.id
